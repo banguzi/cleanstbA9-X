@@ -1,0 +1,27 @@
+# Data pribadi dan sesi perangkat
+backup/
+shots/
+work/
+private/
+logs/
+*.log
+.env
+.env.*
+adbkey*
+*.pem
+*.key
+*.jks
+*.keystore
+# Audio pengguna dan hasil build
+*.mp3
+*.m4a
+*.ogg
+*.wav
+*.apk
+*.aab
+*.zip
+**/build/
+**/.gradle/
+local.properties
+.DS_Store
+__pycache__/

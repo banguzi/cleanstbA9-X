@@ -1,0 +1,17 @@
+{
+  "columns": 4,
+  "rows_below_dock": 0,
+  "background_color": "#17191F",
+  "wallpaper": true,
+  "wallpaper_dim": 0,
+  "cinematic_home": false,
+  "ambient_glow": false,
+  "app_glow": false,
+  "reduced_motion": true,
+  "advanced_effects": false,
+  "focus_overshoot": false,
+  "always_show_names": true,
+  "dock_opacity": 100,
+  "dock_title": true,
+  "sky_intensity": 0
+}
