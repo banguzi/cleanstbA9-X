@@ -1,5 +1,14 @@
 # Riwayat perubahan
 
+## 2026-10-31
+
+- Tambahkan add-on `customizations/cctv-live` (`com.banguzi.tv.cctv`) untuk menampilkan aliran CCTV RTSP lokal secara *realtime* tanpa menambah izin jaringan ke *launcher*.
+- Tampilkan jendela *live preview* 16:9 tanpa suara di sisi kiri bawah jam pada halaman utama *dashboard* tema Islamic Night, yang otomatis berhenti dan melepas dekoder saat aplikasi lain dibuka.
+- Tambahkan kartu modul **CCTV Live** dan layar penuh 1080p dengan jam WIT, tombol nyala/mati suara kamera, pengatur posisi dan ukuran *preview*, serta dialog pengaturan alamat RTSP.
+- Tambahkan normalisasi SDP lokal (`RtspSdpProxy`) agar kompatibel dengan kamera RTSP (`gvminirtsp`) yang mengirim pemisah baris `\n` tanpa `\r`.
+- Pasang dan verifikasi di STB A9-X: kartu modul tampil, *preview* langsung berjalan di *dashboard*, dekoder dilepas saat masuk layar penuh maupun aplikasi lain, dan kembali aktif saat kembali ke Home.
+- Dokumentasikan setup, pemulihan, dan hasil pengujian CCTV dengan tetap menyamarkan alamat IP dan *token* kamera pribadi.
+
 ## 2026-10-24
 
 - Dokumentasikan setup A9-X Android 10 berdasarkan sumber Clean Your TV pada commit acuan.

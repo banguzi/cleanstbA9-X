@@ -1,0 +1,7 @@
+{
+  "rtspUrl": "rtsp://<CCTV_IP>:5543/<STREAM_TOKEN>/live/channel0",
+  "cameraName": "CCTV",
+  "homePreview": true,
+  "previewPosition": "left",
+  "previewSize": "medium"
+}

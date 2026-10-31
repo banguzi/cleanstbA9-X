@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- Midnight teal background matching Islamic Night -->
+    <path
+        android:fillColor="#07151E"
+        android:pathData="M0,0h320v180h-320z" />
+    <!-- Subtle inner card glow -->
+    <path
+        android:fillColor="#0C2230"
+        android:strokeColor="#3DE4D497"
+        android:strokeWidth="1.5"
+        android:pathData="M20,18h280a10,10 0 0 1 10,10v124a10,10 0 0 1 -10,10h-280a10,10 0 0 1 -10,-10v-124a10,10 0 0 1 10,-10z" />
+    <!-- Live indicator pill top-left -->
+    <path
+        android:fillColor="#163447"
+        android:pathData="M34,30h54a9,9 0 0 1 0,18h-54a9,9 0 0 1 0,-18z" />
+    <path
+        android:fillColor="#4ADE80"
+        android:pathData="M43,39m-4,0a4,4 0 1 1 8,0a4,4 0 1 1 -8,0" />
+    <path
+        android:fillColor="#E4D497"
+        android:pathData="M53,36h26v6h-26z" />
+    <!-- Stylized CCTV camera body & lens in warm gold -->
+    <path
+        android:fillColor="#E4D497"
+        android:pathData="M114,68h68a10,10 0 0 1 10,10v44a10,10 0 0 1 -10,10h-68a10,10 0 0 1 -10,-10v-44a10,10 0 0 1 10,-10z" />
+    <!-- Video camera cone / sunshield -->
+    <path
+        android:fillColor="#D4B46A"
+        android:pathData="M196,83l26,-13v40l-26,-13z" />
+    <!-- Lens outer dark ring -->
+    <path
+        android:fillColor="#07151E"
+        android:pathData="M148,90m-15,0a15,15 0 1 1 30,0a15,15 0 1 1 -30,0" />
+    <!-- Lens inner gold iris -->
+    <path
+        android:fillColor="#E4D497"
+        android:pathData="M148,90m-7,0a7,7 0 1 1 14,0a7,7 0 1 1 -14,0" />
+    <!-- Corner viewfinder brackets -->
+    <path
+        android:strokeColor="#66E4D497"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M268,32h22v20M32,148v-20M32,148h22M290,128v20h-22" />
+</vector>

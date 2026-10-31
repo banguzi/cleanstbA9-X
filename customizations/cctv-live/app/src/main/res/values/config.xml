@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RTSP URL placeholder. Override locally before build or push via ConfigProvider / in-app settings. -->
+    <string name="rtsp_url" translatable="false">RTSP_URL</string>
+    <string name="camera_name" translatable="false">CCTV</string>
+    <color name="accent">#D4B46A</color>
+</resources>

@@ -61,6 +61,20 @@ tools/venv/bin/python tools/b64push.py addons/prayer-times/app/build/outputs/apk
 tools/venv/bin/python tools/tv.py 'pm install -r /data/local/tmp/prayer-times.apk'
 ```
 
+## Add-on CCTV Live
+
+1. Salin `customizations/cctv-live/` dari repository ini menjadi `addons/cctv-live/` dalam checkout upstream, lalu salin wrapper Gradle dari add-on upstream:
+   ```bash
+   cp -R /jalur/ke/cleanstbA9-X/customizations/cctv-live addons/cctv-live
+   cp -R addons/frigate-glance/gradle addons/frigate-glance/gradlew addons/cctv-live/
+   ```
+2. Buat berkas konfigurasi privat di luar Git (misalnya `backup/cctv-config.json`) mengacu pada `customizations/cctv-live/config.example.json` berisi `rtspUrl` kamera lokal. Jangan menaruh IP atau *token* asli ke berkas Git.
+3. Jalankan skrip build dan pemasangan dari root checkout upstream dengan JDK 17 dan Android SDK 34:
+   ```bash
+   TV_HOST="<TV_IP>" bash addons/cctv-live/install.sh backup/cctv-config.json
+   ```
+4. Saat prompt kartu modul muncul pada halaman Home, pilih **Tampilkan kartu** (**Show card**). Aliran *live preview* akan muncul di bawah jam pada halaman utama, dan kartu **CCTV Live** dapat dibuka untuk tampilan layar penuh serta pengaturan suara/ukuran/posisi.
+
 ## Tema
 
 Tema `themes/islamic-night/` dan `themes/neobrutalism-light/` memakai kunci konfigurasi upstream. Jalankan dari checkout upstream dengan jalur absolut folder tema repository ini:

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CCTV Live</string>
+    <string name="watch_service_label">CCTV Live — Deteksi Halaman Utama</string>
+    <string name="watch_service_description">Mendeteksi saat halaman utama Clean Your TV tampil agar jendela preview CCTV otomatis aktif di dashboard dan berhenti saat aplikasi lain dibuka.</string>
+</resources>
